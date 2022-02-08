@@ -3,36 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0311E78E24A43D0600B5FEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0311E78D24A43D0600B5FEED /* Assets.xcassets */; };
-		0311E79524A43D0600B5FEED /* MathMinute MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0311E79424A43D0600B5FEED /* MathMinute MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		0311E79A24A43D0600B5FEED /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0311E79924A43D0600B5FEED /* Messages.framework */; };
-		0311E79D24A43D0600B5FEED /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311E79C24A43D0600B5FEED /* MessagesViewController.swift */; };
-		0311E7A024A43D0600B5FEED /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0311E79E24A43D0600B5FEED /* MainInterface.storyboard */; };
-		0311E7A224A43D0600B5FEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0311E7A124A43D0600B5FEED /* Assets.xcassets */; };
+		034F201B27B31C980069EB6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034F201A27B31C980069EB6B /* Assets.xcassets */; };
+		034F202127B31C980069EB6B /* MathMinute MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 034F202027B31C980069EB6B /* MathMinute MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		034F202627B31C980069EB6B /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034F202527B31C980069EB6B /* Messages.framework */; };
+		034F202927B31C980069EB6B /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F202827B31C980069EB6B /* MessagesViewController.swift */; };
+		034F202C27B31C980069EB6B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034F202A27B31C980069EB6B /* MainInterface.storyboard */; };
+		034F202E27B31C990069EB6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034F202D27B31C990069EB6B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0311E79624A43D0600B5FEED /* PBXContainerItemProxy */ = {
+		034F202227B31C980069EB6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0311E78424A43D0400B5FEED /* Project object */;
+			containerPortal = 034F201127B31C940069EB6B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0311E79324A43D0600B5FEED;
+			remoteGlobalIDString = 034F201F27B31C980069EB6B;
 			remoteInfo = "MathMinute MessagesExtension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0311E7A924A43D0600B5FEED /* Embed App Extensions */ = {
+		034F203527B31C990069EB6B /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				0311E79524A43D0600B5FEED /* MathMinute MessagesExtension.appex in Embed App Extensions */,
+				034F202127B31C980069EB6B /* MathMinute MessagesExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,72 +40,70 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0311E78A24A43D0400B5FEED /* MathMinute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathMinute.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0311E78D24A43D0600B5FEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0311E78F24A43D0600B5FEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0311E79424A43D0600B5FEED /* MathMinute MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MathMinute MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0311E79924A43D0600B5FEED /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
-		0311E79C24A43D0600B5FEED /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
-		0311E79F24A43D0600B5FEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		0311E7A124A43D0600B5FEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0311E7A324A43D0600B5FEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034F201727B31C940069EB6B /* MathMinute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathMinute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		034F201A27B31C980069EB6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		034F202027B31C980069EB6B /* MathMinute MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MathMinute MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034F202527B31C980069EB6B /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		034F202827B31C980069EB6B /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		034F202B27B31C980069EB6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		034F202D27B31C990069EB6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		034F202F27B31C990069EB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0311E79124A43D0600B5FEED /* Frameworks */ = {
+		034F201D27B31C980069EB6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0311E79A24A43D0600B5FEED /* Messages.framework in Frameworks */,
+				034F202627B31C980069EB6B /* Messages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0311E78324A43D0400B5FEED = {
+		034F201027B31C940069EB6B = {
 			isa = PBXGroup;
 			children = (
-				0311E78C24A43D0400B5FEED /* MathMinute */,
-				0311E79B24A43D0600B5FEED /* MathMinute MessagesExtension */,
-				0311E79824A43D0600B5FEED /* Frameworks */,
-				0311E78B24A43D0400B5FEED /* Products */,
+				034F201927B31C940069EB6B /* MathMinute */,
+				034F202727B31C980069EB6B /* MathMinute MessagesExtension */,
+				034F202427B31C980069EB6B /* Frameworks */,
+				034F201827B31C940069EB6B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0311E78B24A43D0400B5FEED /* Products */ = {
+		034F201827B31C940069EB6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0311E78A24A43D0400B5FEED /* MathMinute.app */,
-				0311E79424A43D0600B5FEED /* MathMinute MessagesExtension.appex */,
+				034F201727B31C940069EB6B /* MathMinute.app */,
+				034F202027B31C980069EB6B /* MathMinute MessagesExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0311E78C24A43D0400B5FEED /* MathMinute */ = {
+		034F201927B31C940069EB6B /* MathMinute */ = {
 			isa = PBXGroup;
 			children = (
-				0311E78D24A43D0600B5FEED /* Assets.xcassets */,
-				0311E78F24A43D0600B5FEED /* Info.plist */,
+				034F201A27B31C980069EB6B /* Assets.xcassets */,
 			);
 			path = MathMinute;
 			sourceTree = "<group>";
 		};
-		0311E79824A43D0600B5FEED /* Frameworks */ = {
+		034F202427B31C980069EB6B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0311E79924A43D0600B5FEED /* Messages.framework */,
+				034F202527B31C980069EB6B /* Messages.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0311E79B24A43D0600B5FEED /* MathMinute MessagesExtension */ = {
+		034F202727B31C980069EB6B /* MathMinute MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
-				0311E79C24A43D0600B5FEED /* MessagesViewController.swift */,
-				0311E79E24A43D0600B5FEED /* MainInterface.storyboard */,
-				0311E7A124A43D0600B5FEED /* Assets.xcassets */,
-				0311E7A324A43D0600B5FEED /* Info.plist */,
+				034F202827B31C980069EB6B /* MessagesViewController.swift */,
+				034F202A27B31C980069EB6B /* MainInterface.storyboard */,
+				034F202D27B31C990069EB6B /* Assets.xcassets */,
+				034F202F27B31C990069EB6B /* Info.plist */,
 			);
 			path = "MathMinute MessagesExtension";
 			sourceTree = "<group>";
@@ -113,30 +111,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0311E78924A43D0400B5FEED /* MathMinute */ = {
+		034F201627B31C940069EB6B /* MathMinute */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0311E7AA24A43D0600B5FEED /* Build configuration list for PBXNativeTarget "MathMinute" */;
+			buildConfigurationList = 034F203627B31C990069EB6B /* Build configuration list for PBXNativeTarget "MathMinute" */;
 			buildPhases = (
-				0311E78824A43D0400B5FEED /* Resources */,
-				0311E7A924A43D0600B5FEED /* Embed App Extensions */,
+				034F201527B31C940069EB6B /* Resources */,
+				034F203527B31C990069EB6B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0311E79724A43D0600B5FEED /* PBXTargetDependency */,
+				034F202327B31C980069EB6B /* PBXTargetDependency */,
 			);
 			name = MathMinute;
 			productName = MathMinute;
-			productReference = 0311E78A24A43D0400B5FEED /* MathMinute.app */;
+			productReference = 034F201727B31C940069EB6B /* MathMinute.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
-		0311E79324A43D0600B5FEED /* MathMinute MessagesExtension */ = {
+		034F201F27B31C980069EB6B /* MathMinute MessagesExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0311E7A624A43D0600B5FEED /* Build configuration list for PBXNativeTarget "MathMinute MessagesExtension" */;
+			buildConfigurationList = 034F203227B31C990069EB6B /* Build configuration list for PBXNativeTarget "MathMinute MessagesExtension" */;
 			buildPhases = (
-				0311E79024A43D0600B5FEED /* Sources */,
-				0311E79124A43D0600B5FEED /* Frameworks */,
-				0311E79224A43D0600B5FEED /* Resources */,
+				034F201C27B31C980069EB6B /* Sources */,
+				034F201D27B31C980069EB6B /* Frameworks */,
+				034F201E27B31C980069EB6B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,90 +142,90 @@
 			);
 			name = "MathMinute MessagesExtension";
 			productName = "MathMinute MessagesExtension";
-			productReference = 0311E79424A43D0600B5FEED /* MathMinute MessagesExtension.appex */;
+			productReference = 034F202027B31C980069EB6B /* MathMinute MessagesExtension.appex */;
 			productType = "com.apple.product-type.app-extension.messages";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0311E78424A43D0400B5FEED /* Project object */ = {
+		034F201127B31C940069EB6B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
-				ORGANIZATIONNAME = "Erik Boesen";
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					0311E78924A43D0400B5FEED = {
-						CreatedOnToolsVersion = 11.2.1;
+					034F201627B31C940069EB6B = {
+						CreatedOnToolsVersion = 13.2.1;
 					};
-					0311E79324A43D0600B5FEED = {
-						CreatedOnToolsVersion = 11.2.1;
+					034F201F27B31C980069EB6B = {
+						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 0311E78724A43D0400B5FEED /* Build configuration list for PBXProject "MathMinute" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 034F201427B31C940069EB6B /* Build configuration list for PBXProject "MathMinute" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 0311E78324A43D0400B5FEED;
-			productRefGroup = 0311E78B24A43D0400B5FEED /* Products */;
+			mainGroup = 034F201027B31C940069EB6B;
+			productRefGroup = 034F201827B31C940069EB6B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0311E78924A43D0400B5FEED /* MathMinute */,
-				0311E79324A43D0600B5FEED /* MathMinute MessagesExtension */,
+				034F201627B31C940069EB6B /* MathMinute */,
+				034F201F27B31C980069EB6B /* MathMinute MessagesExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0311E78824A43D0400B5FEED /* Resources */ = {
+		034F201527B31C940069EB6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0311E78E24A43D0600B5FEED /* Assets.xcassets in Resources */,
+				034F201B27B31C980069EB6B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0311E79224A43D0600B5FEED /* Resources */ = {
+		034F201E27B31C980069EB6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0311E7A224A43D0600B5FEED /* Assets.xcassets in Resources */,
-				0311E7A024A43D0600B5FEED /* MainInterface.storyboard in Resources */,
+				034F202E27B31C990069EB6B /* Assets.xcassets in Resources */,
+				034F202C27B31C980069EB6B /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0311E79024A43D0600B5FEED /* Sources */ = {
+		034F201C27B31C980069EB6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0311E79D24A43D0600B5FEED /* MessagesViewController.swift in Sources */,
+				034F202927B31C980069EB6B /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0311E79724A43D0600B5FEED /* PBXTargetDependency */ = {
+		034F202327B31C980069EB6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0311E79324A43D0600B5FEED /* MathMinute MessagesExtension */;
-			targetProxy = 0311E79624A43D0600B5FEED /* PBXContainerItemProxy */;
+			target = 034F201F27B31C980069EB6B /* MathMinute MessagesExtension */;
+			targetProxy = 034F202227B31C980069EB6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0311E79E24A43D0600B5FEED /* MainInterface.storyboard */ = {
+		034F202A27B31C980069EB6B /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0311E79F24A43D0600B5FEED /* Base */,
+				034F202B27B31C980069EB6B /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -235,13 +233,13 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0311E7A424A43D0600B5FEED /* Debug */ = {
+		034F203027B31C990069EB6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -261,6 +259,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -285,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,13 +294,13 @@
 			};
 			name = Debug;
 		};
-		0311E7A524A43D0600B5FEED /* Release */ = {
+		034F203127B31C990069EB6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -321,6 +320,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -339,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -349,71 +349,95 @@
 			};
 			name = Release;
 		};
-		0311E7A724A43D0600B5FEED /* Debug */ = {
+		034F203327B31C990069EB6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LFYMCXWJJW;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MathMinute MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MathMinute;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.erikboesen.MathMinute.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0311E7A824A43D0600B5FEED /* Release */ = {
+		034F203427B31C990069EB6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LFYMCXWJJW;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MathMinute MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MathMinute;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.erikboesen.MathMinute.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		0311E7AB24A43D0600B5FEED /* Debug */ = {
+		034F203727B31C990069EB6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LFYMCXWJJW;
-				INFOPLIST_FILE = MathMinute/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.erikboesen.MathMinute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0311E7AC24A43D0600B5FEED /* Release */ = {
+		034F203827B31C990069EB6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LFYMCXWJJW;
-				INFOPLIST_FILE = MathMinute/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.erikboesen.MathMinute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -422,34 +446,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0311E78724A43D0400B5FEED /* Build configuration list for PBXProject "MathMinute" */ = {
+		034F201427B31C940069EB6B /* Build configuration list for PBXProject "MathMinute" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0311E7A424A43D0600B5FEED /* Debug */,
-				0311E7A524A43D0600B5FEED /* Release */,
+				034F203027B31C990069EB6B /* Debug */,
+				034F203127B31C990069EB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0311E7A624A43D0600B5FEED /* Build configuration list for PBXNativeTarget "MathMinute MessagesExtension" */ = {
+		034F203227B31C990069EB6B /* Build configuration list for PBXNativeTarget "MathMinute MessagesExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0311E7A724A43D0600B5FEED /* Debug */,
-				0311E7A824A43D0600B5FEED /* Release */,
+				034F203327B31C990069EB6B /* Debug */,
+				034F203427B31C990069EB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0311E7AA24A43D0600B5FEED /* Build configuration list for PBXNativeTarget "MathMinute" */ = {
+		034F203627B31C990069EB6B /* Build configuration list for PBXNativeTarget "MathMinute" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0311E7AB24A43D0600B5FEED /* Debug */,
-				0311E7AC24A43D0600B5FEED /* Release */,
+				034F203727B31C990069EB6B /* Debug */,
+				034F203827B31C990069EB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0311E78424A43D0400B5FEED /* Project object */;
+	rootObject = 034F201127B31C940069EB6B /* Project object */;
 }

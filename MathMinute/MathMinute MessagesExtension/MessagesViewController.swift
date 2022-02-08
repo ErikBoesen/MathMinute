@@ -2,8 +2,7 @@
 //  MessagesViewController.swift
 //  MathMinute MessagesExtension
 //
-//  Created by Erik Kieran Boesen on 6/24/20.
-//  Copyright © 2020 Erik Boesen. All rights reserved.
+//  Created by Erik Boesen on 2/8/22.
 //
 
 import UIKit
@@ -27,7 +26,7 @@ class MessagesViewController: MSMessagesAppViewController {
     
     override func didResignActive(with conversation: MSConversation) {
         // Called when the extension is about to move from the active to inactive state.
-        // This will happen when the user dissmises the extension, changes to a different
+        // This will happen when the user dismisses the extension, changes to a different
         // conversation or quits Messages.
         
         // Use this method to release shared resources, save user data, invalidate timers,
